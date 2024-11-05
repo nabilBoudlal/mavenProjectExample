@@ -18,6 +18,7 @@ public void jsonCreateFile() {
         FileWriter file = new FileWriter("C:\\Users\\nabil\\OneDrive\\Desktop\\jsonExample.json");
         file.write(jsonObject.toJSONString());
         file.close();
+
     } catch (IOException e) {
         // TODO Auto-generated catch block
         e.printStackTrace();
